@@ -1,10 +1,12 @@
 这个库的作者是这个大神写的 我只是根据我自己项目的特殊需求改了一点功能, 放到github上来用起来方便点
 
-###[他的github地址](https://github.com/LiqiNew/HandlerFrame)
-###[他的博客](http://www.jianshu.com/p/e9fbb99593cb)
+### [他的github地址](https://github.com/LiqiNew/HandlerFrame)
 
-##使用方法
-1.我们发送消息需要handler  可以通过
+### [他的博客](http://www.jianshu.com/p/e9fbb99593cb)
+
+## 使用方法
+
+1. 我们发送消息需要handler  可以通过
 
 	mHander = BaseHandlerOperate.getBaseHandlerOperate();
 这个方法获得   
