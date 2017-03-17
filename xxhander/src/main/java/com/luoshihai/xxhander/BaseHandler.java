@@ -30,9 +30,11 @@ public class BaseHandler extends Handler implements BaseHandlerMethod {
      * @return
      */
     public synchronized static BaseHandler getBaseHandler() {
-        synchronized (BaseHandler.class.getName()) {
-            if (baseHandler == null) {
-                baseHandler = new BaseHandler();
+        if (baseHandler == null) {
+            synchronized (BaseHandler.class.getName()) {
+                if (baseHandler == null) {
+                    baseHandler = new BaseHandler();
+                }
             }
         }
         return baseHandler;
