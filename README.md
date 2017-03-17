@@ -3,6 +3,24 @@
 ###[他的github地址](https://github.com/LiqiNew/HandlerFrame)
 ###[他的博客](http://www.jianshu.com/p/e9fbb99593cb)
 
+## 添加依赖
+1.在project目录的build.gradle的allprojects节点添加
+```java maven { url "https://jitpack.io" }```
+如下:
+
+    allprojects {
+        repositories {
+            jcenter()
+            maven { url "https://jitpack.io" }
+        }
+    }
+
+2.在自己Modul的build.gradle中添加``` 'compile 'com.github.luoshihai:XXHander:V1.0.1''```
+如下:
+
+	dependencies {
+	        compile 'com.github.luoshihai:XXHander:V1.0.1'
+	}
 ##使用方法
 1.我们发送消息需要handler  可以通过
 
