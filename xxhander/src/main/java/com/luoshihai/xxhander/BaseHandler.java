@@ -149,17 +149,4 @@ public class BaseHandler extends Handler implements BaseHandlerMethod {
         this.baseHandlerGetKey = baseHandlerGetKey;
     }
 
-    /**
-     * Handler中SparseArray集合Key设置接口
-     *
-     * @author Liqi
-     */
-    public interface BaseHandlerGetKey {
-        /**
-         * 设置SparseArray集合存入的Key
-         *
-         * @return
-         */
-        public int handlerGetKey();
-    }
 }

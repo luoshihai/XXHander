@@ -7,11 +7,11 @@ package com.luoshihai.xxhander;
  * @author Liqi
  * 
  */
-public class BaseHandlerOperate implements BaseHandler.BaseHandlerGetKey,
+public class BaseHandlerOperate implements BaseHandlerGetKey,
 		FactoryOperateInterface {
 	// 当前操作的对象class
 	protected Class<?> clazz;
-	private BaseHandlerMethod handler;
+	private BaseHandlerMethod handler;//handler实现的接口  用来操作handler
 	private static BaseHandlerOperate handlerOperate;
 	private BaseHandlerFactoryId factoryId;
 

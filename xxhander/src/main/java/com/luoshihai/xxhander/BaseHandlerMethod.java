@@ -37,6 +37,6 @@ public interface BaseHandlerMethod {
 	 *
 	 * @param baseHandlerGetKey
 	 */
-	public void setBaseHandlerGetKey(BaseHandler.BaseHandlerGetKey baseHandlerGetKey);
+	public void setBaseHandlerGetKey(BaseHandlerGetKey baseHandlerGetKey);
 
 }
