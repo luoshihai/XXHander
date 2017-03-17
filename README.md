@@ -1,7 +1,8 @@
 这个库的作者是这个大神写的 我只是根据我自己项目的特殊需求改了一点功能, 放到github上来用起来方便点
 
-###[他的github地址](https://github.com/LiqiNew/HandlerFrame)
-###[他的博客](http://www.jianshu.com/p/e9fbb99593cb)
+### [他的github地址](https://github.com/LiqiNew/HandlerFrame)
+
+### [他的博客](http://www.jianshu.com/p/e9fbb99593cb)
 
 ## 添加依赖
 1.在project目录的build.gradle的allprojects节点添加
